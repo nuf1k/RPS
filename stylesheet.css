@@ -1,0 +1,76 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height:80vh;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:center;
+    background-image: url("background-image.jpg");
+}
+
+.game-container {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-between;
+    background-color:lightblue;
+    padding:0px 100px;
+    min-width:1000px;
+    min-height:400px;
+    border-style:solid;
+    border-width:10px;
+}
+
+.game-start {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-bottom:100px;
+}
+
+.game-ui {
+    display:none;
+    flex-direction:column;
+    align-items:center;
+    min-height:300px;
+    width: 75%;
+    margin-bottom:20px;
+}
+
+.game-over-screen {
+    display:none;
+    font-size:40px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color:white;
+}
+
+.title {
+    font-size:70px;
+}
+
+.game-buttons, .round-amount-buttons {
+    display:flex;
+    justify-content: space-between;
+    width:75%;
+}
+
+#rock, #paper, #scissors, #to3, #to5, #to10 {
+    background-color:rgb(107, 176, 197);
+    color:white;
+    border-style:solid;
+    border-width:3px;
+    border-color:white;
+    padding:20px 40px;
+    font-size:larger;
+    font-weight:bold;
+    box-sizing:content-box;
+    min-width:80px;
+}
+
+.game-results-info {
+    margin-top:50px;
+}
+
+.results {
+    font-weight:bold;
+}

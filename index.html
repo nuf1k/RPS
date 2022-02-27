@@ -4,9 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="javascript.js" defer></script>
+    <link rel="stylesheet" href="stylesheet.css">
     <title>Document</title>
 </head>
 <body>
-    <script src="javascript.js"></script>
+    <div class="game-container">
+        <h1 class="title">ROCK PAPER SCISSORS</h1>
+        <div class="game-start">
+            <h2 class="game-amount-question">How many games would you like to play?</h2>
+            <div class="round-amount-buttons">
+                <button id="to3">Up to 3 points</button>
+                <button id="to5">Up to 5 points</button>
+                <button id="to10">Up to 10 points</button>
+            </div>
+        </div>
+        <div class="game-ui">
+            <div class="game-buttons">
+                <button id="rock">Rock</button>
+                <button id="paper">Paper</button>
+                <button id="scissors">Scissors</button>
+            </div>
+            <h2 class="game-results-info">ROUND RESULT:</h2>
+            <div class="user-choice"></div>
+            <div class="computer-choice"></div>
+            <br>
+            <div class="results">
+                Press a button to start!
+            </div>
+            <br>
+            <div class="user-points"></div>
+            <div class="computer-points"></div>
+        </div>
+        <div class="game-over-screen">
+            <h2 class="game-over">test</h2>
+        </div>
+    </div>
 </body>
 </html>
